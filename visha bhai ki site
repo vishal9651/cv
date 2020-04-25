@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vishal's personal site </title>
+    </head>
+  <body>
+ <img src="https://drive.google.com/file/d/1-b0P2EEJD8z21ZTJCoF5fhztQwSV-Db6/view?usp=drivesdk" alt"profile of vishal">
+<h1> vishal mishra  </h1>
+<p> <em>profesionaly work as a <strong>web developer</strong></em> </p>
+<p> I am a web developer.<strong>I love to develope too many websites</strong>.basicaly I also love cricket,I have played club cricket for 2 yers when I was schooling.</p>
+<hr>
+<h3> Books and Ideas</h3>
+<ul>
+<li> Ideology to the world</li>
+<li> Our planet and thoughts</li>
+<li> Nothing is Ideology</li>
+</ul>
+<hr>
+<h2> Ideology</h2>
+<ol>
+<li> Numerical Ideology</li>
+<li> Physical Ideology</li>
+<li> mental Ideology</li>
+</ol>
+</body>
+</html>

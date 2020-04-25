@@ -1,0 +1,39 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+    <title>View page in browser from AnWriter</title>
+    <style type="text/css">
+body {
+	font-family: Roboto Light;
+}
+.warn{color: red;font-size:70%;}
+#linkinp{font-size:3em;}
+#urlbox{display:none;}
+</style>
+    <script type="text/javascript">
+function init() {
+	if(navigator.userAgent.indexOf("Firefox")!=-1 || navigator.userAgent.indexOf("OPR")!=-1){
+		document.getElementById("linkbox").style.display = "block";
+		document.getElementById("urlbox").style.display = "none";
+		document.location="file:///storage/emulated/0/xname(2).html";
+	}else{
+		document.getElementById("linkbox").style.display = "none";
+		document.getElementById("urlbox").style.display = "block";
+	}
+}
+</script>
+</head><body onload="init()">
+    <div id="linkbox">
+        <h1>To open your page use the link below</h1>
+        <p><a href="file:///storage/emulated/0/xname(2).html">file:///storage/emulated/0/xname(2).html</a></p>
+    </div>
+    <div id="urlbox">
+        <h2>Looks like you are using browser that supports only manual input of a file address.</h2>
+        <h3>You should copy the address from the field below into the address box of your browser.</h3>
+        <input type="text" value="file:///storage/emulated/0/xname(2).html" style="width: 100%" id="linkinp">
+        <h3>If you want to open your page without additional operations, try Firefox browser.</h3>
+    </div>
+  <!--  <p class="warn">This link will not work if you don't give the browser permission to
+        access storage on your device.<br>
+        You should find your browser in <b>System settings / Apps</b>,
+        find <b>Permissions</b> and turn on <b>Storage</b> switch.
+    </p>-->
+</body></html>
